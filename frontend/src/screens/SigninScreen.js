@@ -51,10 +51,10 @@ function SigninScreen(props) {
           <button type="submit" className="button primary">Signin</button>
         </li>
         <li>
-          New to Amazzon?
+          Nuovo su Amazzon?
         </li>
         <li>
-          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your Amazzon account</Link>
+          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Crea il tuo account Amazzon</Link>
         </li>
       </ul>
     </form>
