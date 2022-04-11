@@ -29,7 +29,7 @@ function SigninScreen(props) {
     <form onSubmit={submitHandler} >
       <ul className="form-container">
         <li>
-          <h2>Sign-In</h2>
+          <h2>Entra</h2>
         </li>
         <li>
           {loading && <div>Loading...</div>}
@@ -48,7 +48,7 @@ function SigninScreen(props) {
           </input>
         </li>
         <li>
-          <button type="submit" className="button primary">Signin</button>
+          <button type="submit" className="button primary">Entra</button>
         </li>
         <li>
           Nuovo su Amazzon?

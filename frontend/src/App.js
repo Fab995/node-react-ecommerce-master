@@ -34,11 +34,11 @@ function App() {
             <Link to="/">Amazzon</Link>
           </div>
           <div className="header-links">
-            <a href="cart.html">Cart</a>
+            <a href="cart.html">Carrello</a>
             {userInfo ? (
               <Link to="/profile">{userInfo.name}</Link>
             ) : (
-              <Link to="/signin">Sign In</Link>
+              <Link to="/signin">Fai il login</Link>
             )}
             {userInfo && userInfo.isAdmin && (
               <div className="dropdown">
@@ -54,7 +54,7 @@ function App() {
           </div>
         </header>
         <aside className="sidebar">
-          <h3>Shopping Categories</h3>
+          <h3>Categorie</h3>
           <button className="sidebar-close-button" onClick={closeMenu}>
             x
           </button>
@@ -85,7 +85,7 @@ function App() {
             <Route path="/" exact={true} component={HomeScreen} />
           </div>
         </main>
-        <footer className="footer">All right reserved.</footer>
+        <footer className="footer">Tutti i diritti riservati.</footer>
       </div>
     </BrowserRouter>
   );
